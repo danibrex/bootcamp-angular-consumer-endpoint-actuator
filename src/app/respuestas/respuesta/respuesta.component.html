@@ -1,0 +1,14 @@
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="text-center" scope="col">Direcciones Actuator en localhost:8083</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let respuesta of respuestas">
+            <td><a href="{{respuesta}}" target="blanck">{{respuesta}}</a></td>
+        </tr>
+        </tbody>
+    </table>   
+</div>
